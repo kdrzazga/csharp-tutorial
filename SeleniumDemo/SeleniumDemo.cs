@@ -16,15 +16,16 @@ namespace SeleniumDemo
         const string chromePath = "C:\\Program Files (x86)\\Google\\Chrome\\Application";
 
         [SetUp]
-        public void startBrowser()
+        public void StartBrowser()
         {
             driver = new ChromeDriver(chromePath);
         }
 
         [Test]
-        public void test()
+        public void Test()
         {
             driver.Url = "http://www.google.co.in";
+            driver.Manage().Window.Maximize();
         }
 
         [TearDown]
