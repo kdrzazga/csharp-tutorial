@@ -34,9 +34,9 @@ namespace Pong
 
             //we need to dispose this pen when we're done with it.
             //a handy way to do that is with a "using" clause
-            using (Pen pen = new Pen(Color.White, 1))
+            using (Pen pen = new Pen(Color.Red, 1))
             {
-                g.DrawPolygon(pen, lw1);
+                g.DrawEllipse(pen, 450, 320, 40, 40);
             }
         }
 

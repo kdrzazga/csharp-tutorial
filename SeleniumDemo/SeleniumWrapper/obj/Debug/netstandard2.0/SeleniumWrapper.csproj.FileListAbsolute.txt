@@ -1,0 +1,6 @@
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\bin\Debug\netstandard2.0\SeleniumWrapper.deps.json
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\bin\Debug\netstandard2.0\SeleniumWrapper.dll
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\obj\Debug\netstandard2.0\SeleniumWrapper.csprojAssemblyReference.cache
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\obj\Debug\netstandard2.0\SeleniumWrapper.csproj.CoreCompileInputs.cache
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\obj\Debug\netstandard2.0\SeleniumWrapper.AssemblyInfoInputs.cache
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\obj\Debug\netstandard2.0\SeleniumWrapper.AssemblyInfo.cs

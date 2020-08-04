@@ -17,8 +17,11 @@ namespace Pong
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PongForm());
+            var mainForm = new PongForm();
+            Application.Run(mainForm);
+            
             Game game = new Game();
+
         }
     }
 }

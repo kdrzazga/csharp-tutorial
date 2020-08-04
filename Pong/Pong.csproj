@@ -46,7 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DrawingTool.cs" />
+    <Compile Include="FormDrawinTool.cs" />
+    <Compile Include="IDrawingTool.cs" />
     <Compile Include="GameElements\Ball.cs" />
     <Compile Include="GameElements\Bat.cs" />
     <Compile Include="GameElements\Board.cs" />

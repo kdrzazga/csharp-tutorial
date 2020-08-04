@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pong
 {
-    interface DrawingTool
+    interface IDrawingTool
     {
         void Draw(Board board);
     }

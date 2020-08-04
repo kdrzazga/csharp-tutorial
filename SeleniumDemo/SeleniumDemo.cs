@@ -13,7 +13,7 @@ namespace SeleniumDemo
     class SeleniumDemo
     {
         IWebDriver driver;
-        const string chromePath = "C:\\Program Files (x86)\\Google\\Chrome\\Application";
+        const string chromePath = "C:\\Users\\kdrzazga\\webdriver\\chromedriver.exe";
 
         [SetUp]
         public void StartBrowser()
@@ -24,12 +24,12 @@ namespace SeleniumDemo
         [Test]
         public void Test()
         {
-            driver.Url = "http://www.google.co.in";
+            driver.Url = "http://www.google.com";
             driver.Manage().Window.Maximize();
         }
 
         [TearDown]
-        public void closeBrowser()
+        public void CloseBrowser()
         {
             driver.Close();
         }

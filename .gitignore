@@ -1,5 +1,12 @@
 */bin/*
-*/packages/*
-*/obj/Debug/*
+*/packages/
+*/obj/Debug/
 *.lock
 */.vs/*
+*.cache
+*.pdb
+*.exe
+*.exe.config
+*.dll
+*.props
+*.targets

@@ -11,6 +11,7 @@ namespace Pong.GameElements
     {
         private Board Board;
         private bool running;
+        private readonly IDrawingTool drawingTool;
 
         public Game()
         {
@@ -19,6 +20,7 @@ namespace Pong.GameElements
                 if (this.running)
                 {
                     Console.Out.Write('.');
+                    
                 }
                 Thread.Sleep(40);
             }
