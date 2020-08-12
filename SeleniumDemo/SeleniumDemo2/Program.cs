@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium;
+using SeleniumWrapper;
+using SeleniumDemo2.PageObjects;
+using NUnit.Framework;
 
 namespace SeleniumDemo2
 {
@@ -12,11 +15,20 @@ namespace SeleniumDemo2
     {
         static void Main(string[] args)
         {
-            IWebDriver driver = new FirefoxDriver("C:\\Users\\kdrzazga\\webdriver");
-            driver.Manage().Window.Maximize();
+            var driver = new FirefoxDriver("C:\\Users\\kdrzazga\\webdriver");
+            Utils.MaximizeWindow(driver);
 
-            //Go to Google
-            driver.Navigate().GoToUrl("http://www.google.com");
+            var seleniumEasyPage = new PO_SeleniumEasy(driver);
+            seleniumEasyPage.Load();
+
+            Assert.That(driver.Title.Contains("Selenium Easy"));
+            Assert.That(driver.Title.Contains("Selenium Webdriver Online"));
+
+            seleniumEasyPage.ClickSiteNameBanner();
+            Assert.That(driver.Title.Contains("Selenium Easy"));
+            Assert.That(driver.Title.Contains("Learn Selenium"));
+
+            driver.Quit();
         }
     }
 }

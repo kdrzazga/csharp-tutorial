@@ -2,16 +2,40 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
-      "NUnit/3.12.0": {
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
         "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
         "compile": {
-          "lib/net45/nunit.framework.dll": {}
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
         },
         "runtime": {
-          "lib/net45/nunit.framework.dll": {}
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
         },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.UnitTesting/11.0.50727.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        }
+      },
+      "NUnit3TestAdapter/3.17.0": {
+        "type": "package",
         "build": {
-          "build/NUnit.props": {}
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "NUnitTestAdapter/2.3.0": {
@@ -49,16 +73,40 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win": {
-      "NUnit/3.12.0": {
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
         "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
         "compile": {
-          "lib/net45/nunit.framework.dll": {}
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
         },
         "runtime": {
-          "lib/net45/nunit.framework.dll": {}
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
         },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.UnitTesting/11.0.50727.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        }
+      },
+      "NUnit3TestAdapter/3.17.0": {
+        "type": "package",
         "build": {
-          "build/NUnit.props": {}
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "NUnitTestAdapter/2.3.0": {
@@ -96,16 +144,40 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win-x64": {
-      "NUnit/3.12.0": {
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
         "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
         "compile": {
-          "lib/net45/nunit.framework.dll": {}
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
         },
         "runtime": {
-          "lib/net45/nunit.framework.dll": {}
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
         },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.UnitTesting/11.0.50727.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        }
+      },
+      "NUnit3TestAdapter/3.17.0": {
+        "type": "package",
         "build": {
-          "build/NUnit.props": {}
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "NUnitTestAdapter/2.3.0": {
@@ -143,16 +215,40 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win-x86": {
-      "NUnit/3.12.0": {
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
         "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
         "compile": {
-          "lib/net45/nunit.framework.dll": {}
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
         },
         "runtime": {
-          "lib/net45/nunit.framework.dll": {}
+          "lib/net45/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
         },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.UnitTesting/11.0.50727.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        }
+      },
+      "NUnit3TestAdapter/3.17.0": {
+        "type": "package",
         "build": {
-          "build/NUnit.props": {}
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "NUnitTestAdapter/2.3.0": {
@@ -191,34 +287,85 @@
     }
   },
   "libraries": {
-    "NUnit/3.12.0": {
-      "sha512": "3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
+    "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+      "sha512": "xc6jVVl5ymgk3ZNWnC/KHxkEup1QpnwYbrwF+NQoCOGERsD8YMlLwmsX4lGhLXCLo/YQTRTIwlKCN9E/doGUNg==",
       "type": "package",
-      "path": "nunit/3.12.0",
+      "path": "dotnetseleniumextras.waithelpers/3.11.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "CHANGES.md",
+        "dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+        "dotnetseleniumextras.waithelpers.nuspec",
+        "lib/net35/SeleniumExtras.WaitHelpers.dll",
+        "lib/net40/SeleniumExtras.WaitHelpers.dll",
+        "lib/net45/SeleniumExtras.WaitHelpers.dll",
+        "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll"
+      ]
+    },
+    "log4net/2.0.8": {
+      "sha512": "N41MQGHZImiCfn0cUuSBjZxrcNfIQCuCgQP0rpgB3J/NWponEh3lc1LxJEuIsPAR9Oc1jVvfkNNFCY1C5hf9LA==",
+      "type": "package",
+      "path": "log4net/2.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20-full/log4net.dll",
+        "lib/net20-full/log4net.xml",
+        "lib/net35-client/log4net.dll",
+        "lib/net35-client/log4net.xml",
+        "lib/net35-full/log4net.dll",
+        "lib/net35-full/log4net.xml",
+        "lib/net40-client/log4net.dll",
+        "lib/net40-client/log4net.xml",
+        "lib/net40-full/log4net.dll",
+        "lib/net40-full/log4net.xml",
+        "lib/net45-full/log4net.dll",
+        "lib/net45-full/log4net.xml",
+        "lib/netstandard1.3/log4net.dll",
+        "log4net.2.0.8.nupkg.sha512",
+        "log4net.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.UnitTesting/11.0.50727.1": {
+      "sha512": "DoqQ6Zl7GcytRa1isWv20MyV1znFRDje6k/y3edbew3Qx/Z1r5Cf6rBktD7lGxN97d2VVC5RzdFHw+dci9lsMw==",
+      "type": "package",
+      "path": "microsoft.visualstudio.unittesting/11.0.50727.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.txt",
-        "NOTICES.txt",
-        "build/NUnit.props",
-        "lib/net35/nunit.framework.dll",
-        "lib/net35/nunit.framework.pdb",
-        "lib/net35/nunit.framework.xml",
-        "lib/net40/nunit.framework.dll",
-        "lib/net40/nunit.framework.pdb",
-        "lib/net40/nunit.framework.xml",
-        "lib/net45/nunit.framework.dll",
-        "lib/net45/nunit.framework.pdb",
-        "lib/net45/nunit.framework.xml",
-        "lib/netstandard1.4/nunit.framework.dll",
-        "lib/netstandard1.4/nunit.framework.pdb",
-        "lib/netstandard1.4/nunit.framework.xml",
-        "lib/netstandard2.0/nunit.framework.dll",
-        "lib/netstandard2.0/nunit.framework.pdb",
-        "lib/netstandard2.0/nunit.framework.xml",
-        "nunit.3.12.0.nupkg.sha512",
-        "nunit.nuspec"
+        "THIRD-PARTY-LICENSE.txt",
+        "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll",
+        "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml",
+        "microsoft.visualstudio.unittesting.11.0.50727.1.nupkg.sha512",
+        "microsoft.visualstudio.unittesting.nuspec",
+        "tools/net45/MSTest.exe",
+        "tools/net45/MSTest.exe.config"
+      ]
+    },
+    "NUnit3TestAdapter/3.17.0": {
+      "sha512": "I9MNvK+GM2yXrHPitwZkAZKU9sYI2OO/8wKC+VuBD7V3z+ySQ1pSopX/urr0ooedI8/TIcajYPRO4vGRr7AM8A==",
+      "type": "package",
+      "path": "nunit3testadapter/3.17.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.core.dll",
+        "build/net35/nunit.engine.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp2.1/NUnit3TestAdapter.props",
+        "build/netcoreapp2.1/nunit.engine.api.dll",
+        "build/netcoreapp2.1/nunit.engine.core.dll",
+        "build/netcoreapp2.1/nunit.engine.dll",
+        "nunit3testadapter.3.17.0.nupkg.sha512",
+        "nunit3testadapter.nuspec"
       ]
     },
     "NUnitTestAdapter/2.3.0": {
@@ -283,10 +430,14 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.1": [
-      "NUnit >= 3.12.0",
+      "C:\\Users\\kdrzazga\\Documents\\pers\\programming\\csharp-tutorial\\SeleniumDemo\\SeleniumWrapper\\SeleniumWrapperOLD.csproj",
+      "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
+      "Microsoft.VisualStudio.UnitTesting >= 11.0.50727.1",
+      "NUnit3TestAdapter >= 3.17.0",
       "NUnitTestAdapter >= 2.3.0",
       "Selenium.Support >= 3.141.0",
-      "Selenium.WebDriver >= 3.141.0"
+      "Selenium.WebDriver >= 3.141.0",
+      "log4net >= 2.0.8"
     ]
   },
   "packageFolders": {
@@ -315,16 +466,28 @@
       },
       "frameworks": {
         "net461": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kdrzazga\\Documents\\pers\\programming\\csharp-tutorial\\SeleniumDemo\\SeleniumWrapper\\SeleniumWrapperOLD.csproj": {
+              "projectPath": "C:\\Users\\kdrzazga\\Documents\\pers\\programming\\csharp-tutorial\\SeleniumDemo\\SeleniumWrapper\\SeleniumWrapperOLD.csproj"
+            }
+          }
         }
       }
     },
     "frameworks": {
       "net461": {
         "dependencies": {
-          "NUnit": {
+          "DotNetSeleniumExtras.WaitHelpers": {
             "target": "Package",
-            "version": "[3.12.0, )"
+            "version": "[3.11.0, )"
+          },
+          "Microsoft.VisualStudio.UnitTesting": {
+            "target": "Package",
+            "version": "[11.0.50727.1, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[3.17.0, )"
           },
           "NUnitTestAdapter": {
             "target": "Package",
@@ -337,6 +500,10 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[3.141.0, )"
+          },
+          "log4net": {
+            "target": "Package",
+            "version": "[2.0.8, )"
           }
         }
       }
@@ -352,5 +519,19 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\kdrzazga\\Documents\\pers\\programming\\csharp-tutorial\\SeleniumDemo\\SeleniumWrapper\\SeleniumWrapperOLD.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\kdrzazga\\Documents\\pers\\programming\\csharp-tutorial\\SeleniumDemo\\SeleniumWrapper\\SeleniumWrapperOLD.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    }
+  ]
 }

@@ -15,17 +15,19 @@ namespace Tutorial
 
         public List<Person> GetAdults(List<Person> people)
         {
-            return people.FindAll(person => person.age >= 18);
+            return people.FindAll(person => person.Age >= 18);
         }
     }
 
     class Person
     {
-        public int age { get; }
+        public string Name { get; }
+        public int Age { get; }
 
-        public Person(int age)
+        public Person(string name, int age)
         {
-            this.age = age;
+            this.Name = name;
+            this.Age = age;
         }
     }
 

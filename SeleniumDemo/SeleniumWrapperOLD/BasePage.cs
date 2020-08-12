@@ -10,7 +10,7 @@ namespace SeleniumWrapper
 
         public IWebDriver Driver { get; set; }
         protected readonly string Url;
-        protected readonly ILog Log = LogManager.GetLogger(typeof(BasePage));
+        protected static readonly ILog Log = LogManager.GetLogger(typeof(BasePage));
 
         public BasePage(IWebDriver driver, string url)
         {

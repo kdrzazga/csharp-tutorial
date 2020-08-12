@@ -8,7 +8,6 @@ namespace Tutorial
 {
     public class Functions
     {
-
         public Func<int, int> square = (x) => x * x;
 
         public Func<int, int> negate = x => x * -1;
