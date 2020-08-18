@@ -1,0 +1,14 @@
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\bin\Debug\netcoreapp2.1\MSTests.deps.json
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\bin\Debug\netcoreapp2.1\MSTests.runtimeconfig.json
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\bin\Debug\netcoreapp2.1\MSTests.runtimeconfig.dev.json
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\bin\Debug\netcoreapp2.1\MSTests.dll
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\bin\Debug\netcoreapp2.1\MSTests.pdb
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\obj\Debug\netcoreapp2.1\MSTests.csprojAssemblyReference.cache
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\obj\Debug\netcoreapp2.1\MSTests.csproj.CoreCompileInputs.cache
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\obj\Debug\netcoreapp2.1\MSTests.AssemblyInfoInputs.cache
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\obj\Debug\netcoreapp2.1\MSTests.AssemblyInfo.cs
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\obj\Debug\netcoreapp2.1\MSTests.dll
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\MSTests\obj\Debug\netcoreapp2.1\MSTests.pdb

@@ -48,7 +48,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PageObjects\PO_BasicFirstFormDemo.cs" />
     <Compile Include="PageObjects\PO_SeleniumEasy.cs" />
+    <Compile Include="PageObjects\SeleniumEasyBasePage.cs" />
     <Compile Include="TestSuite.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -2,9 +2,9 @@
 using SeleniumWrapper;
 using System.Collections.Generic;
 
-namespace SeleniumDemo2.PageObjects
+namespace SeleniumTests3.PageObjects
 {
-    public class PO_SeleniumEasy : BasePage
+    public class PO_SeleniumEasy : SeleniumEasyBasePage
     {
         private readonly By treeMenuSelector = By.Id("treemenu");
         private readonly By menuItemSelector = By.TagName("li");
@@ -12,7 +12,7 @@ namespace SeleniumDemo2.PageObjects
 
         private static IWebElement treeMenu;
         private static IWebElement siteNameBanner;
-        private static List<IWebElement> examplesList;
+        private static IReadOnlyCollection<IWebElement> examplesList;
         
         public PO_SeleniumEasy(IWebDriver driver) 
             : base(driver, "https://www.seleniumeasy.com/test/")
@@ -23,12 +23,16 @@ namespace SeleniumDemo2.PageObjects
         {
             base.Load();
             Log.Info("Loading page " + this.Url);
+            base.SetupCookie("ala", "ma kota");
         }
 
         public override void FindElements()
         {
-            treeMenu = LocatorHelper.QuietlyFindElements(this.Driver, treeMenuSelector, 5);
-            siteNameBanner = LocatorHelper.QuietlyFindElements(this.Driver, siteNameBannerSelector, 5);
+            base.FindElements();
+            base.AcceptCookies();
+            treeMenu = LocatorHelper.QuietlyFindElement(this.Driver, treeMenuSelector, 5);
+            siteNameBanner = LocatorHelper.QuietlyFindElement(this.Driver, siteNameBannerSelector, 5);
+            examplesList = LocatorHelper.QuietlyFindElements(this.Driver, menuItemSelector, 5);
         }
 
         public void ClickSiteNameBanner()

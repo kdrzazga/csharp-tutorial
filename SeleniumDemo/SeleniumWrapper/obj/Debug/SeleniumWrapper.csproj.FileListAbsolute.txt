@@ -1,0 +1,12 @@
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\bin\Debug\SeleniumWrapper.dll
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\bin\Debug\SeleniumWrapper.pdb
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\bin\Debug\log4net.dll
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\bin\Debug\WebDriver.dll
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\bin\Debug\log4net.xml
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\bin\Debug\WebDriver.xml
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\obj\Debug\SeleniumWrapper.csprojAssemblyReference.cache
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\obj\Debug\SeleniumWrapper.csproj.CoreCompileInputs.cache
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\obj\Debug\SeleniumWrapper.csproj.CopyComplete
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\obj\Debug\SeleniumWrapper.dll
+C:\Users\kdrzazga\Documents\pers\programming\csharp-tutorial\SeleniumDemo\SeleniumWrapper\obj\Debug\SeleniumWrapper.pdb
